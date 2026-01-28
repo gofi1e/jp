@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Video YouTube Style</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.video-container {
+  position: relative;
+  width: 640px;
+  height: 360px; /* 16:9 seperti YouTube */
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.overlay-link {
+  position: absolute;
+  inset: 0;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<div class="video-container">
+  <video src="https://cdn.videy.co/g9YiQOwx1.mp4" autoplay muted></video>
+  <a href="https://petsrulefondness.com/g8htu6fn9?key=b8eedfbc01329bff8c2b6da1a062f8c2" class="overlay-link"></a>
+</div>
+
+</body>
+</html>
